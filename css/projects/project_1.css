@@ -1,0 +1,43 @@
+/* First CSS card project */
+
+#card1 {
+    width: 250px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+  }
+  
+  #card1 img {
+    width: 100%;
+  }
+  
+  #card1 div {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 180px;
+  }
+  
+  #card1 h3 {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #card1 p {
+    text-align: center;
+    margin: 10px 25px 15px 25px;
+  }
+  
+  /* Project 2 */
+  
+  #card2 {
+    width: 250px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+  }
+  
+  #card2 img {
+    width: 100%;
+  }
