@@ -17,7 +17,7 @@ header {
   border-bottom: 3px solid lightgreen;
 }
 
-h1 {
+#page-heading h1 {
   color: lightgreen;
   text-decoration: underline;
   margin: 0;

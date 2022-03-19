@@ -1,0 +1,39 @@
+/* CSS Project #2 */
+
+#card-box-2 {
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-box-2 h2 {
+    color: lavender;
+}
+
+.infocardContainer {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    background-color: beige;
+}
+
+#card2 {
+    width: 55%;
+    height: 100%;
+}
+
+#card2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid wheat;
+}
+
+
+#text-box {
+    background-color: midnightblue;
+    height: 100%;
+}
