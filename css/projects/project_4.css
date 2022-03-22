@@ -1,0 +1,6 @@
+/* CSS Project #4 */
+
+#card4 {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}

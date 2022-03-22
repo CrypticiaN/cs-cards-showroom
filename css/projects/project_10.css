@@ -1,0 +1,48 @@
+/* CSS Project #10 */
+
+.cards10 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+}
+
+.card-shadow {
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+}
+
+.bottom {
+    position: relative;
+    z-index: 2;
+    background-color: aquamarine;
+}
+
+.mid-bottom {
+    position: relative;
+    z-index: 3;
+    background-color: cadetblue;
+}
+
+.mid-top {
+    position: relative;
+    z-index: 4;
+    background-color: cornflowerblue;
+}
+
+.top {
+    position: relative;
+    z-index: 5;
+    background-color: darkcyan;
+}
