@@ -1,0 +1,27 @@
+.image-area {
+    position: absolute;
+}
+.img-wrapper {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrapper::before {
+    position: absolute;
+}
+
+.img-wrapper img {
+    width: 300px;
+    height: 400px;
+}
+
+.img-wrapper h2 {
+    position: absolute;
+}
+
+.img-wrapper ul {
+    position: absolute;
+}

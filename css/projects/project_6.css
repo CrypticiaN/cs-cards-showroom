@@ -1,0 +1,44 @@
+/* Card container */
+#card-box-6 {
+    display: flex;
+    flex-direction: row;
+}
+
+#card-box-6 h2 {
+    width: 100%;
+    position: absolute;
+    background-color: seagreen;
+}
+
+.flip-card-container {
+    display: flex;
+    flex-direction: row;
+}
+.flip-card
+
+/* Front of card */
+.card-front
+.card-front figure
+.img-bg
+.card-front img
+.card-front figcaption
+.card-front ul
+
+/* Back of card */
+.card-back
+.card-back figure
+.img-bg
+.card-back img
+.card-back button
+
+/* Design of thin lines on cards */
+.design-container
+.design
+.design--1
+.design--2
+.design--3
+.design--4
+.design--5
+.design--6
+.design--7
+.design--8
