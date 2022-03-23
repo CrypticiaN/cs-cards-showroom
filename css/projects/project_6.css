@@ -2,6 +2,8 @@
 #card-box-6 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #card-box-6 h2 {
@@ -13,11 +15,24 @@
 .flip-card-container {
     display: flex;
     flex-direction: row;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
 }
-.flip-card
+.flip-card {
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
 
 /* Front of card */
-.card-front
+.card-front {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+}
+
 .card-front figure
 .img-bg
 .card-front img
@@ -25,7 +40,12 @@
 .card-front ul
 
 /* Back of card */
-.card-back
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .card-back figure
 .img-bg
 .card-back img
@@ -42,3 +62,4 @@
 .design--6
 .design--7
 .design--8
+
